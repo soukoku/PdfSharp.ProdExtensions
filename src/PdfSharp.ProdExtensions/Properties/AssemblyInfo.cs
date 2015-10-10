@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PdfSharp.ProdExtensions")]
-[assembly: AssemblyDescription("Contains productivity extension methods and custom types for PdfSharp.")]
+[assembly: AssemblyTitle("PDFsharp Productivity Extensions")]
+[assembly: AssemblyDescription("Contains productivity extension methods and custom types for PDFsharp.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("PdfSharp.ProdExtensions")]
 [assembly: AssemblyTrademark("")]
