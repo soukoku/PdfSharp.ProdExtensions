@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/soukoku/PdfSharp.ProdExtensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/soukoku/PdfSharp.ProdExtensions</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <!--<releaseNotes></releaseNotes>-->
+    <copyright>$copyright$</copyright>
+    <tags>PdfSharp Productivity</tags>
+  </metadata>
+	<files>
+		<file src="bin\$configuration$\$id$.pdb" target="lib\net35-client"/>
+	</files>
+</package>
