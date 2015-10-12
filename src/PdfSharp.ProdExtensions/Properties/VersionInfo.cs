@@ -23,7 +23,7 @@ namespace PdfSharp.ProdExtensions
         /// <summary>
         /// The build release version number.
         /// </summary>
-        public const string Build = "1.0.0"; // change this for each nuget release
+        public const string Build = "1.0.1"; // change this for each nuget release
 
 
     }

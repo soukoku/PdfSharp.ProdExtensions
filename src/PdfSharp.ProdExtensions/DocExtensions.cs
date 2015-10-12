@@ -103,12 +103,12 @@ namespace PdfSharp.Pdf
             if (srcDoc != null)
             {
                 var total = srcDoc.PageCount;
-                for (int i = 0; i < total;)
+                for (int i = 0; i < total; )
                 {
                     i++;
                     if (includePageCallback == null || includePageCallback(i))
                     {
-                        var newPg = doc.AddPage(srcDoc.Pages[i]);
+                        var newPg = doc.AddPage(srcDoc.Pages[i - 1]);
                         if (newPageCallback != null)
                         {
                             newPageCallback(i, newPg);
@@ -132,12 +132,12 @@ namespace PdfSharp.Pdf
             if (image != null)
             {
                 var total = image.GetFrameCount(FrameDimension.Page);
-                for (int i = 0; i < total;)
+                for (int i = 0; i < total; )
                 {
                     i++;
                     if (includePageCallback == null || includePageCallback(i))
                     {
-                        image.SelectActiveFrame(FrameDimension.Page, i);
+                        image.SelectActiveFrame(FrameDimension.Page, i - 1);
 
                         var newPg = AddSinglePageReal(doc, image);
                         if (newPageCallback != null)
