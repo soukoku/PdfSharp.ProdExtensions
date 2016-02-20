@@ -1,5 +1,5 @@
 # PdfSharp.ProdExtensions
-Contains productivity extension methods and custom types for PDFsharp.
+Contains productivity extension methods and custom stamp types for PDFsharp.
 
 ## Image/Pdf Import
 One-liner that allows you to import multi-page images/pdf sources into another pdf.

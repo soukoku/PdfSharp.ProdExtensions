@@ -43,7 +43,7 @@ namespace PdfSharp.Pdf
         {
             get
             {
-                if (elements.ContainsKey("/JS"))
+                if (Elements.ContainsKey("/JS"))
                 {
                     return Elements["/JS"].ToString();
                 }

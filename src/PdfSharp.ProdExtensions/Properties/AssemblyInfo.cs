@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PDFsharp Productivity Extensions")]
-[assembly: AssemblyDescription("Contains productivity extension methods and custom types for PDFsharp.")]
+[assembly: AssemblyDescription("Contains productivity extension methods and custom stamp types for PDFsharp.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("PdfSharp.ProdExtensions")]
 [assembly: AssemblyTrademark("")]

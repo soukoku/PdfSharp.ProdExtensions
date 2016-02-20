@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-[assembly: AssemblyCopyright("Copyright \x00a9 Yin-Chun Wang 2015")]
+[assembly: AssemblyCopyright("Copyright \x00a9 Yin-Chun Wang 2016")]
 [assembly: AssemblyCompany("Yin-Chun Wang")]
 
 [assembly: AssemblyVersion(PdfSharp.ProdExtensions.VersionInfo.Release)]
@@ -23,7 +23,7 @@ namespace PdfSharp.ProdExtensions
         /// <summary>
         /// The build release version number.
         /// </summary>
-        public const string Build = "1.0.1"; // change this for each nuget release
+        public const string Build = "1.0.2"; // change this for each nuget release
 
 
     }

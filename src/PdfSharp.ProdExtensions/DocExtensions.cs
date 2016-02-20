@@ -103,7 +103,7 @@ namespace PdfSharp.Pdf
             if (srcDoc != null)
             {
                 var total = srcDoc.PageCount;
-                for (int i = 0; i < total; )
+                for (int i = 0; i < total;)
                 {
                     i++;
                     if (includePageCallback == null || includePageCallback(i))
@@ -117,6 +117,8 @@ namespace PdfSharp.Pdf
                 }
             }
         }
+
+#if GDIPLUS
 
         /// <summary>
         /// Merges all the image pages into a new pdf page for the specified doc.
@@ -132,7 +134,7 @@ namespace PdfSharp.Pdf
             if (image != null)
             {
                 var total = image.GetFrameCount(FrameDimension.Page);
-                for (int i = 0; i < total; )
+                for (int i = 0; i < total;)
                 {
                     i++;
                     if (includePageCallback == null || includePageCallback(i))
@@ -183,6 +185,8 @@ namespace PdfSharp.Pdf
             }
             return newPage;
         }
+
+#endif
 
         #endregion
     }
